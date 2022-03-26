@@ -25,10 +25,10 @@
 .Cursor {
   position: relative;
   top: -4px;
-  animation: Cursor-blink 0.69s infinite;
+  animation: blink 0.69s infinite;
 }
 
-@keyframes Cursor-blink {
+@keyframes blink {
   0% {
     opacity: 0;
   }
@@ -41,4 +41,32 @@
   100% {
     opacity: 1;
   }
+}
+
+.Congrats {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Congrats-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 69%;
+  z-index: 1;
+}
+
+.Congrats-modal {
+  background-color: black;
+  border: 2px solid #0F0;
+  border-radius: 6px;
+  width: 640px;
+  font-size: 64px;
+  padding: 32px;
+  z-index: 2;
 }

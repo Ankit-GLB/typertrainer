@@ -16,6 +16,16 @@ function App() {
 
   return (
     <div className="App">
+      { progress === textTokens.length && 
+        <div className="Congrats">
+          <div className="Congrats-background"></div>
+          <div className="Congrats-modal">
+            Congrats!
+            <br />
+            169 WPM!!!
+          </div>
+        </div>
+      }
       <h1 className="Header">Typer Trainer Beta</h1>
       <div className="Type-box">
         {textTokens.slice(0, progress).join(' ')}
