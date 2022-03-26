@@ -20,9 +20,11 @@ function App() {
         <div className="Congrats">
           <div className="Congrats-background"></div>
           <div className="Congrats-modal">
-            Congrats!
-            <br />
-            169 WPM!!!
+            <p className="Congrats-text">
+              Congrats!
+              <br />
+              169 WPM!!!
+            </p>
           </div>
         </div>
       }

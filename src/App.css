@@ -70,3 +70,7 @@
   padding: 32px;
   z-index: 2;
 }
+
+.Congrats-text {
+  animation: blink 0.69s infinite;
+}
